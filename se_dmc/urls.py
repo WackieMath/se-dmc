@@ -32,13 +32,13 @@ urlpatterns = [
     path('services/', Services.as_view(), name='services'),
     path('work/', Work.as_view(), name='work'),
     path('contact/', contact, name='contact'),
-     path('Tshilo_Dikotla', TshiloDikotla.as_view(), name='Tshilo_Dikotla'),
-    path('Cancer', Cancer.as_view(), name='Cancer'),
-    path('ambition', Ambition.as_view(), name='ambition'),
-    path('bcpp', Bcpp.as_view(), name='bcpp'),
-    path('eit', Eit.as_view(), name='eit'),
-    path('lis', Lis.as_view(), name='lis'),
-    path('microbiome', Microbiome.as_view(), name='microbiome'),
+     path('Tshilo_Dikotla/', TshiloDikotla.as_view(), name='Tshilo_Dikotla'),
+    path('Cancer/', Cancer.as_view(), name='Cancer'),
+    path('ambition/', Ambition.as_view(), name='ambition'),
+    path('bcpp/', Bcpp.as_view(), name='bcpp'),
+    path('eit/', Eit.as_view(), name='eit'),
+    path('lis/', Lis.as_view(), name='lis'),
+    path('microbiome/', Microbiome.as_view(), name='microbiome'),
 
 ]
 
